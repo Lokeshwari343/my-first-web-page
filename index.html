@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/heart.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css"> <!-- in css folder we have styles.css -->
+    <title>first link</title>
+    <!--
+    <style>
+        body{
+            background-color: lightblue;
+        }</style>
+        <style>
+            body {
+                font-family: Arial,  sans-serif;
+                margin: 20px;
+            }
+            h1{
+                color: red;
+                font-size: 100px;
+                font-weight: 300;
+            }
+            p{
+                line-height: 1.5;
+            }</style>
+        -->
 </head>
 <body>
-    <html>hello</html>
+    <h1 style="color: blueviolet;font-size: 70px; font-weight: 200;">hello</h1> <!--h1 applied css-->
+    <h2>world</h2>
+    <h1>another h1 tag</h1>
+    <p>This is a simple paragraph.</p>
+    <img src="images/nature.jpg" alt="A beautiful landscape" width="330" height="340"/>
+    <a href="https://www.google.com" target="_blank">Visit Google</a> <!-- anchor tag use to navigate within the same page or differentpages to another page. -->
+    <!-- href is an attribute for achor tag which is used to specify the URL of the page the link goes to. -->
+    <ul> <!-- unordered list =ul -->
+        <li>item 1</li><!-- list item =li -->
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <ol> <!-- ordered list =ol -->
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+    <!--card section-->
+    <section class="cards-container">
+    <div class="card"> <!-- the image in output will reflect based on styles section if it row or columns we mention in -->
+        <img src="images/computer.jpg" alt="Card Image" width="300" height="200"/>
+        <h3>Card Title</h3>
+        <p>This is a card description.</p>
+    </div> <!-- we can also use section tag instead of div tag -->
+        <div class="card">   <!--we did not apply container property so it will show in column-->
+        <img src="images/life style.jpg" alt="Card Image" width="300" height="200"/>
+        <h3>Card Title</h3>
+        <p>This is a card description.</p>
+      
+    </div>
+      </section>
+      <details><!--semantic element one of the type details-->
+        <summary class="GFG"> GeeksforGeeks </summary>
+        <p>GeeksforGeeks is a Computer Science portal
+            where you can learn good programming.
+        </p>
+    </details>
+
 </body>
 </html>
