@@ -4,4 +4,4 @@ In body section i have mentioned <h1> i have used css part to sytle the h1 and h
 anchor tag for website link<a></a>
 order list,list items,unorder list
 div and section for separation in images in wed page
-i have used another folder css inside styles section i have style the page
+i have used another folder css inside styles section i have style the page.
